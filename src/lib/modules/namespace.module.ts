@@ -11,7 +11,7 @@ export class NamespaceModule {
             providers: [
                 {
                     provide: NAMESPACE_CONFIG_KEY,
-                    useValue: options.configKey,
+                    useValue: options.configKey
                 },
                 NamespaceManagerService,
             ],

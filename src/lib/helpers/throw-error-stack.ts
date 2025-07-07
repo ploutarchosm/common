@@ -23,3 +23,8 @@ export const getErrorStack = (error: unknown): string | undefined => {
     }
     return undefined;
 };
+
+// Helper function to check if error is MongoDB error
+export const isMongoError = (error: unknown): error is any => {
+    return error && typeof error === 'object' && 'name' in error;
+};
