@@ -14,6 +14,8 @@ export * from './lib/constants/security-persmissions';
 export * from './lib/pipes/clean-object-id.pipe';
 export * from './lib/pipes/parse-objectId.pipe';
 export * from './lib/pipes/validate-empty-object.pipe';
+export * from './lib/pipes/validate-object-id.pipe';
+export * from './lib/pipes/validate-pagination.pipe';
 export * from './lib/pipes/validate-system-repository-model.pipe';
 
 // HELPERS
