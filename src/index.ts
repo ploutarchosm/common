@@ -2,6 +2,7 @@
 
 // INTERFACES
 export * from './lib/interfaces/permission.interface';
+export * from './lib/interfaces/queries-for-list-request.interface';
 
 // CONST
 export * from './lib/constants/localization.config-key';
@@ -9,8 +10,11 @@ export * from './lib/constants/security-api-token-header-key';
 export * from './lib/constants/security-meta-data-key';
 export * from './lib/constants/security-persmissions';
 
-// MODULES
-
+// PIPES
+export * from './lib/pipes/clean-object-id.pipe';
+export * from './lib/pipes/parse-objectId.pipe';
+export * from './lib/pipes/validate-empty-object.pipe';
+export * from './lib/pipes/validate-system-repository-model.pipe';
 
 // HELPERS
 export * from './lib/helpers/throw-error-stack';
