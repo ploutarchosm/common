@@ -1,6 +1,6 @@
 import { Request } from "express";
 import { IPermission } from "../interfaces/permission.interface";
-import * as pm from 'picomatch';
+import pm from 'picomatch';
 
 export function hasPermission(req: Request, permissions: string[]) {
     if (
