@@ -5,7 +5,7 @@ export interface IAuthApi {
 }
 
 
-export enum AuthTokenAction {
+export enum IAuthTokenAction {
     Login = 'login',
     Register = 'register',
     ResetPassword = 'reset-password',
@@ -13,7 +13,7 @@ export enum AuthTokenAction {
 }
 
 
-export enum AuthTokenState {
+export enum IAuthTokenState {
     Pending = 'PENDING',
     Failed = 'FAILED',
     Success = 'SUCCESS',

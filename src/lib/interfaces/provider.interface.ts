@@ -1,4 +1,4 @@
-export enum ProviderType {
+export enum EProvider {
     Local = 'local',
     Google = 'google',
     Microsoft = 'microsoft',

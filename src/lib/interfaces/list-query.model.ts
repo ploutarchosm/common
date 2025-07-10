@@ -4,7 +4,7 @@ import {
     IsOptional
 } from 'class-validator';
 
-export class QueriesForListRequest {
+export class CListQuery {
     @ApiProperty()
     @IsDefined()
     take: number;

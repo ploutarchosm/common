@@ -23,7 +23,9 @@ export * from './lib/interfaces/auth.interface';
 export * from './lib/interfaces/auth-service.interface';
 export * from './lib/interfaces/permission.interface';
 export * from './lib/interfaces/provider.interface';
-export * from './lib/interfaces/queries-for-list-request.interface';
+export * from './lib/interfaces/list-query.model';
+export * from './lib/interfaces/list-query.interface';
+export * from './lib/interfaces/list-response.interface';
 
 // PIPES
 export * from './lib/pipes/clean-object-id.pipe';
