@@ -1,0 +1,6 @@
+export const INJECTION_TOKENS = {
+    USER_SERVICE: Symbol('USER_SERVICE'),
+    AUTH_SERVICE: Symbol('AUTH_SERVICE'),
+    ROLE_SERVICE: Symbol('ROLE_SERVICE'),
+    PERMISSION_SERVICE: Symbol('PERMISSION_SERVICE')
+} as const;
