@@ -3,4 +3,5 @@ export enum EProvider {
     Google = 'google',
     Microsoft = 'microsoft',
     Github = 'github',
+    facebook = 'facebook',
 }
