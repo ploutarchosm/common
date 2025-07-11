@@ -15,5 +15,5 @@ export class CListQuery {
 
     @ApiProperty()
     @IsOptional()
-    search: string;
+    search?: string;
 }
